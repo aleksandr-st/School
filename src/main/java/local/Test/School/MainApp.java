@@ -40,7 +40,7 @@ public class MainApp {
     	System.out.println("Student list for class \"" + sc.getName() + "\" contains:\n");
     	ma.printList(ma.apiClass.getStudentsFromClass(sc));
 
-    	System.out.println("Student list for class \"" + sc.getName() + "\" contains:\n");
+    	System.out.println("Student list for class \"" + sc2.getName() + "\" contains:\n");
     	ma.printList(ma.apiClass.getStudentsFromClass(sc2));
 
     }
